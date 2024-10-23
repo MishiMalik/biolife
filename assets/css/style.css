@@ -1,0 +1,286 @@
+
+:root{
+    --bg-light:#F7FDFB;
+    --primary:#3C8A27;
+    --secondry:#49477B;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--bg-light);
+}
+.logo{
+   height:60px;
+   width: auto;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding: 3px 8px !important;
+}
+.nav-btn{
+    background-color: var(--primary);
+    color: white;
+    border-radius: 3px;
+    padding: 4px 7px;
+    color: white !important;
+}
+.nav-btn button{
+    color: white !important;
+}
+.active-nav{
+    color: var(--primary);
+}
+
+.nav-link:hover{
+    color: var(--primary);
+}
+.hero-section{
+    padding-top: 120px;
+    background-color: var(--bg-light);
+    background-image: url('../images/diagnostic-lab-hero-bg.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size:60%;
+    min-height: 660px;
+    
+}
+.hero-img{
+    width: 75%;
+    border-radius: 10px 10px 0 0 !important;
+   height:85% !important;
+   object-fit: cover;
+}
+.tag-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+}
+.main-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.main-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+.btn-blank,
+.btn-fill{
+    background-color: var(--primary);
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid var(--primary);
+}
+.btn-blank{
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+.btn-fill:hover{
+    background-color: transparent;
+    color: var(--primary);
+}
+.btn-blank:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+/* =================================================section2 */
+.section-2{
+    padding: 80px 0;
+    background-color: var(--bg-light);
+    background-image: url('../images/diagnostic-lab-content-gradient-bg\ \(1\).svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+}
+.statistics-row{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    border-radius:10px;
+    text-align: center;
+}
+.statistics-row{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--primary);
+}
+.statistics-row-header{
+    background-color: var(--secondry);
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 40px 0 !important;
+}
+.statistics-row h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.statistics-row h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--primary);
+}
+.statistics-row p{
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+.team{
+    background-image: url('/assets/images/diagnostic-lab-content-gradient-bg\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;position: relative;
+    z-index: 3;
+
+}
+.team-div{
+    position: relative;
+    z-index: 1;
+}
+.team-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.team-card img{
+ width: 100%;
+ height:auto;
+ object-fit: cover;
+ max-width: 280px !important;
+}
+.service-card h3,
+.team-card h3{
+font-size: 16px;
+font-weight: 600;
+color: black;
+}
+.service-card p,
+.team-card p{
+font-size: 14px;
+font-weight: 500;
+color: gray;
+}
+.service-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100%;
+}
+.service-card img{
+    width: 90%;
+    height: auto;
+    border-radius: 10px 10px 10px 0;
+    height: 150px;
+    object-fit: cover;
+    margin-top: -40px;
+    margin-left: 0;
+}
+.thematic-card{
+    position: relative;
+}
+.thematic-card img{
+    height: 250px;
+    width: 100%;
+    /* max-width: 300px; */
+    border-radius: 10px;
+   object-fit: cover;
+}
+.thematic-card-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding:13px 5px 10px 5px;
+    background-color: #000000a6;
+    z-index: 5;
+    border-radius: 0 0 10px 10px;
+}
+.thematic-card-text button{
+    background-color: transparent;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+.modal-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.modal-dialog{
+    max-width: 600px;
+}
+.footer{
+    background-color: var(--secondry);
+}
+.footer i{
+    font-size: 36px;
+    color: var(--primary);
+    margin-right: 15px;
+}
+.footer h3{
+    font-size: 18px;
+    color: white;
+}
+.footer p,
+.footer a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width:991px){
+    .navbar-collapse{
+        background-color: white;
+        padding: 20px;
+    }
+    .main-heading{
+        font-size: 28px;
+    }
+    .main-text{
+        font-size: 16px;
+    }
+    .btn-blank,
+    .btn-fill{
+        font-size: 14px;
+    }
+    .hero-text{
+        margin-top: -55px;
+    }
+    .section-2{
+        padding: 55px 0px;
+    }
+}
+@media only screen and (max-width:640px){
+.logo{
+    height: 50px;
+    width: auto;
+}
+.btn-fill,
+.btn-blank{
+    width: 100%;
+    text-align: center;
+}
+.hero-section{
+    background-size: 100%;
+}
+.service-card img{
+    margin-top: -30px;
+}
+.footer i{
+    font-size: 32px;
+}
+.footer h3{
+    font-size: 16px;
+    color: white;
+}
+}
