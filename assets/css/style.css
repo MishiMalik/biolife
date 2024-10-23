@@ -1,72 +1,83 @@
-
-:root{
-    --bg-light:#F7FDFB;
-    --primary:#3C8A27;
-    --secondry:#49477B;
+:root {
+    --bg-light: #F7FDFB;
+    --primary: #3C8A27;
+    --secondry: #49477B;
 }
-body{
+
+body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--bg-light);
 }
-.logo{
-   height:60px;
-   width: auto;
+
+.logo {
+    height: 60px;
+    width: auto;
 }
-.nav-link{
+
+.nav-link {
     font-size: 16px;
     font-weight: 500;
     color: black;
     padding: 3px 8px !important;
 }
-.nav-btn{
+
+.nav-btn {
     background-color: var(--primary);
     color: white;
     border-radius: 3px;
     padding: 4px 7px;
     color: white !important;
 }
-.nav-btn button{
+
+.nav-btn button {
     color: white !important;
 }
-.active-nav{
+
+.active-nav {
     color: var(--primary);
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--primary);
 }
-.hero-section{
+
+.hero-section {
     padding-top: 120px;
     background-color: var(--bg-light);
     background-image: url('../images/diagnostic-lab-hero-bg.jpg');
     background-position: right top;
     background-repeat: no-repeat;
-    background-size:60%;
+    background-size: 60%;
     min-height: 660px;
-    
+
 }
-.hero-img{
+
+.hero-img {
     width: 75%;
     border-radius: 10px 10px 0 0 !important;
-   height:85% !important;
-   object-fit: cover;
+    height: 85% !important;
+    object-fit: cover;
 }
-.tag-text{
+
+.tag-text {
     font-size: 16px;
     font-weight: 600;
     color: var(--primary);
 }
-.main-heading{
+
+.main-heading {
     font-size: 40px;
     font-weight: 600;
 }
-.main-text{
+
+.main-text {
     font-size: 18px;
     font-weight: 400;
     color: gray;
 }
+
 .btn-blank,
-.btn-fill{
+.btn-fill {
     background-color: var(--primary);
     padding: 7px 15px;
     border-radius: 3px;
@@ -76,107 +87,125 @@ body{
     text-decoration: none;
     border: 2px solid var(--primary);
 }
-.btn-blank{
+
+.btn-blank {
     background-color: transparent;
     border: 2px solid var(--primary);
     color: var(--primary);
 }
-.btn-fill:hover{
+
+.btn-fill:hover {
     background-color: transparent;
     color: var(--primary);
 }
-.btn-blank:hover{
+
+.btn-blank:hover {
     background-color: var(--primary);
     color: white;
 }
 
 /* =================================================section2 */
-.section-2{
+.section-2 {
     padding: 80px 0;
     background-color: var(--bg-light);
     background-image: url('../images/diagnostic-lab-content-gradient-bg\ \(1\).svg');
     background-position: left center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     min-height: 100vh;
 }
-.statistics-row{
+
+.statistics-row {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 20px;
-    border-radius:10px;
+    border-radius: 10px;
     text-align: center;
 }
-.statistics-row{
+
+.statistics-row {
     font-size: 28px;
     font-weight: 600;
     color: var(--primary);
 }
-.statistics-row-header{
+
+.statistics-row-header {
     background-color: var(--secondry);
     color: white;
     border-radius: 7px;
     text-align: center;
     padding: 40px 0 !important;
 }
-.statistics-row h2{
+
+.statistics-row h2 {
     font-size: 28px;
     font-weight: 600;
     color: white;
     text-align: center;
 }
-.statistics-row h1{
+
+.statistics-row h1 {
     font-size: 40px;
     font-weight: 600;
     color: var(--primary);
 }
-.statistics-row p{
+
+.statistics-row p {
     font-size: 16px;
     font-weight: 600;
     color: gray;
 }
-.team{
+
+.team {
     background-image: url('/assets/images/diagnostic-lab-content-gradient-bg\ \(1\).svg');
     background-repeat: no-repeat;
     background-position: center left;
-    background-size: cover;position: relative;
+    background-size: cover;
+    position: relative;
     z-index: 3;
 
 }
-.team-div{
+
+.team-div {
     position: relative;
     z-index: 1;
 }
-.team-card{
+
+.team-card {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.team-card img{
- width: 100%;
- height:auto;
- object-fit: cover;
- max-width: 280px !important;
+
+.team-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 280px !important;
 }
+
 .service-card h3,
-.team-card h3{
-font-size: 16px;
-font-weight: 600;
-color: black;
+.team-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
 }
+
 .service-card p,
-.team-card p{
-font-size: 14px;
-font-weight: 500;
-color: gray;
+.team-card p {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
 }
-.service-card{
+
+.service-card {
     border: 1px solid black;
     border-radius: 10px;
     height: 100%;
 }
-.service-card img{
+
+.service-card img {
     width: 90%;
     height: auto;
     border-radius: 10px 10px 10px 0;
@@ -185,27 +214,31 @@ color: gray;
     margin-top: -40px;
     margin-left: 0;
 }
-.thematic-card{
+
+.thematic-card {
     position: relative;
 }
-.thematic-card img{
+
+.thematic-card img {
     height: 250px;
     width: 100%;
     /* max-width: 300px; */
     border-radius: 10px;
-   object-fit: cover;
+    object-fit: cover;
 }
-.thematic-card-text{
+
+.thematic-card-text {
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    padding:13px 5px 10px 5px;
+    padding: 13px 5px 10px 5px;
     background-color: #000000a6;
     z-index: 5;
     border-radius: 0 0 10px 10px;
 }
-.thematic-card-text button{
+
+.thematic-card-text button {
     background-color: transparent;
     border: none;
     background-color: transparent;
@@ -213,74 +246,92 @@ color: gray;
     color: white;
     text-align: left;
 }
-.modal-title{
+
+.modal-title {
     font-size: 16px;
     font-weight: 500;
 }
-.modal-dialog{
+
+.modal-dialog {
     max-width: 600px;
 }
-.footer{
+
+.footer {
     background-color: var(--secondry);
 }
-.footer i{
+
+.footer i {
     font-size: 36px;
     color: var(--primary);
     margin-right: 15px;
 }
-.footer h3{
+
+.footer h3 {
     font-size: 18px;
     color: white;
 }
+
 .footer p,
-.footer a{
+.footer a {
     font-size: 14px;
     color: white;
     text-decoration: none;
 }
-@media only screen and (max-width:991px){
-    .navbar-collapse{
+
+@media only screen and (max-width:991px) {
+    .navbar-collapse {
         background-color: white;
         padding: 20px;
     }
-    .main-heading{
+
+    .main-heading {
         font-size: 28px;
     }
-    .main-text{
+
+    .main-text {
         font-size: 16px;
     }
+
     .btn-blank,
-    .btn-fill{
+    .btn-fill {
         font-size: 14px;
     }
-    .hero-text{
+
+    .hero-text {
         margin-top: -55px;
     }
-    .section-2{
+
+    .section-2 {
         padding: 55px 0px;
     }
 }
-@media only screen and (max-width:640px){
-.logo{
-    height: 50px;
-    width: auto;
-}
-.btn-fill,
-.btn-blank{
-    width: 100%;
-    text-align: center;
-}
-.hero-section{
-    background-size: 100%;
-}
-.service-card img{
-    margin-top: -30px;
-}
-.footer i{
-    font-size: 32px;
-}
-.footer h3{
-    font-size: 16px;
-    color: white;
-}
+
+@media only screen and (max-width:640px) {
+    .logo {
+        height: 50px;
+        width: auto;
+    }
+
+    .btn-fill,
+    .btn-blank {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-section {
+        background-size: 100%;
+    }
+
+    .service-card img {
+        margin-top: -30px;
+    }
+
+    .footer i {
+        font-size: 32px;
+    }
+
+    .footer h3 {
+        font-size: 16px;
+        color: white;
+    }
 }
